@@ -1,0 +1,23 @@
+{
+  "name": "diaspora-connect",
+  "version": "0.0.1",
+  "authors": [
+    "Augier"
+  ],
+  "description": "diaspora OpenID Connect client",
+  "keywords": [
+    "diaspora",
+    "openid",
+    "connect",
+    "client"
+  ],
+  "license": "GPL v3 & al.",
+  "homepage": "https://diasporafoundation.org/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
