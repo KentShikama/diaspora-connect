@@ -4,6 +4,7 @@
   "authors": [
     "Augier"
   ],
+  "main": "js/main.js",
   "description": "diaspora OpenID Connect client",
   "keywords": [
     "diaspora",

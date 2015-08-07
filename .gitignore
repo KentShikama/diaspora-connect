@@ -1,0 +1,7 @@
+*.iml
+.idea**
+.directory
+node_modules**
+*.log
+build**
+*.js.map
