@@ -21,7 +21,7 @@ class DiasporaConnect
   login: () ->
     OIDC.login({
       scope : 'openid read write',
-      response_type : 'token id_token',
+      response_type : 'id_token token',
       max_age : 60
     });
 
@@ -39,5 +39,5 @@ window.onload = () ->
 
   redirect_uri = button.getAttribute("data-redirect-uri")
   diaspora_client = new DiasporaConnect "79af8f42ba5f43b73983f33becb4e5be", redirect_uri, "testaccount@kentshikama.com"
-  diaspora_client.login
+  diaspora_client.login()
   diaspora_client.get_tokens()
